@@ -13,8 +13,9 @@ body {
 }
 #calendar {
 	background: #ccc !important;
-	<!--- Uncomment to view at 7 day width --->
+	<!---  7 day width --->
 	max-width: 620px !important;
+	<!-- end 7 day width --->
 	padding: 0px 20px 20px 20px !important;
 }
 
