@@ -183,7 +183,7 @@ background: #e9e6e6 !important;
 <cfloop from="1" to="#DaysInMonth(url.date)#" index="monthDays">
   <cfset thisDate = CreateDate(DatePart("yyyy",url.date),DatePart("m",url.date),monthDays)>
   <cfset thisDay = DayOfWeek(thisDate)>
-   <a href="#" id="<cfoutput>#HTMLEditFormat(thisDate)#</cfoutput>" class="day"><div class="dayView">
+   <a href="?date=#HTMLEditFormat(thisDate)#" id="<cfoutput>#HTMLEditFormat(thisDate)#</cfoutput>" class="day"><div class="dayView">
       <div class="outerDay"><cfoutput>#HTMLEditFormat(DayOfWeekAsString(thisDay))#</cfoutput></div>
       <div class="innerDay"><cfoutput>#HTMLEditFormat(Day(thisDate))#</cfoutput></div>
     </div>
