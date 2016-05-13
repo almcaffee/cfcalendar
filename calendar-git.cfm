@@ -1,4 +1,4 @@
-<cfparam name="url.date" default="#DateFormat(Now(),"yyyy-dd-mm")#">
+<cfparam name="url.date" default="#DateFormat(Now(),"yyyy-mm-dd")#">
 
 <!doctype html>
 <html>
