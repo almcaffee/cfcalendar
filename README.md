@@ -1,6 +1,6 @@
 # [CFCalendar](http://ollietinsley.com/coldfusion/calendar-git.cfm)
-Builds calendar month | Coldfusion
+Builds dynamic calendar month | Coldfusion
 
-This was created solely because I created a dashboard application running on CF and wanted a fairly large viewable calendar without the headaches of css styling issues of a js framework.
+Pass date as a url query parameter in format `yyyy-mm-dd`.
 
 CSS included to differentiate leading/trailing days and display some possible functionality. 
